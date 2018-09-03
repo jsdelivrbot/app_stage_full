@@ -1,0 +1,191 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+@import url('../assets/left.min.css');
+
+.logo{
+    height: 75px;
+    width: 100%;
+    background-color: #2e3d5d;
+   
+}
+.titre[_ngcontent-c0] {
+    height: 41px;
+    line-height: 41px;
+    width: 100%;
+    padding-left: 423px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 16px -4px #c3c3c3;
+    color: #aeb6c6;
+    font-size: 18px;
+    font-weight: bold;
+}
+.herders{
+    width: 126.5%;
+    position: fixed;
+    z-index: 100;
+}
+.navbar-fixed-left[_ngcontent-c0], .navbar-fixed-right[_ngcontent-c0]{
+    /* position: relative; */
+}
+
+@media (min-width: 768px){
+.navbar-fixed-left[_ngcontent-c0], .navbar-fixed-right[_ngcontent-c0] {
+    width: 237px;
+    height: 100vh;
+    border-radius: 0;
+}
+}
+.navbar-inverse[_ngcontent-c0] {
+    background-color: #2e3d5d;
+    border-color: #2e3d5d;
+}
+.navbar-inverse {
+    background-color: #2e3d5d;
+    border-color: #2e3d5d;
+};
+
+.navbar-brand > img {
+    /* height: 100px; */
+}
+.navbar-brand[_ngcontent-c0][_ngcontent-c0] > img[_ngcontent-c0][_ngcontent-c0]{
+    display: block;
+    height: 190%;
+    margin-top: 10px;
+}
+.icon[_ngcontent-c0] {
+
+    height: 20px;
+    width: 20px;
+    margin-left: 3px;
+    margin-right: 9px;
+}
+.icon1[_ngcontent-c0] {
+
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+    margin-right: 9px
+}
+.navbar-nav{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.navbar-fixed-left[_ngcontent-c0] .navbar-collapse[_ngcontent-c0] .navbar-nav[_ngcontent-c0] > li[_ngcontent-c0], .navbar-fixed-right[_ngcontent-c0] .navbar-collapse[_ngcontent-c0] .navbar-nav[_ngcontent-c0] > li[_ngcontent-c0]{
+    height: 30px;
+    font-size: 15px;
+}
+.navbar-fixed-left[_ngcontent-c0] .navbar-header[_ngcontent-c0], .navbar-fixed-right[_ngcontent-c0] .navbar-header[_ngcontent-c0]{
+    margin-bottom: 50px;
+}
+.content{
+    margin-top: 135px;
+}
+
+.active{
+    color: #00c8e7 !important;   
+    
+}
+.acceuil{
+    background-image: url("../assets/bgc.png");
+    background-size:cover;
+    height: 100vh;
+    /* width: 100%; */
+}
+.acceuil_Roobo{  
+    background-image: url("../assets/kks.png");
+    background-size:cover;
+    height: 640px;
+    width: 478px;
+  
+}
+/* .acceuil_Roobo img{
+    height: 640px;
+} */
+.accuil_lien{
+    height: 50px;
+    width: 350px;
+    background-color: #f09115;
+    border-radius: 35px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.accuil_version{
+   
+    width: 350px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 9px;
+}
+
+.accuil_lien a{
+    
+    color: white;
+}
+.accuil_lien a:hover{
+    
+    text-decoration: none;
+}
+.acceuil_btn{
+  
+    position: relative;
+}
+.accuil_logo{
+    position: relative;
+    top: 495px;
+    left: 38px;
+}
+.accuil_logo img{
+    height: 49px;
+    width: 286px;
+}
+.acceuil_btn{
+    position: relative;
+    right: 50px;
+}
+.acceuil_section{
+    position: relative;
+    top: 320px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    /* position: relative;
+    left: 60%;
+    top: 28%; */
+}
+
+.logo_rigth div{
+    float: left;
+    margin-left: 25px;
+    
+}
+.logo_rigth{
+
+    position: relative;
+    left: 34%;
+    line-height: 75px;
+}
+.useer span{
+    color: #a8b1c2;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.serach_input input{
+    background-color: #324160;
+    border-radius: 10px;
+    border: 1px #9ca5b7 solid;
+    color: #9ca5b7;
+    line-height: 26px;
+    padding: 1px;
+    padding-left: 13px;
+}
+
+.serach_input input::placeholder{
+
+    color: #9ca5b7;
+}

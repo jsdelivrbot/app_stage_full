@@ -1,0 +1,17 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import '~ngx-bar-rating/themes/br-square-theme.css';
+@import "~@ng-select/ng-select/themes/material.theme.css";
+
+
+@font-face {
+    font-family: NexaLight;
+    src: url('./assets/NexaLight.otf');
+}
+
+body{
+    background-color: #FAFBFF !important;
+}
+div ,button{
+    font-family: NexaLight;
+}
